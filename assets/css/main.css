@@ -25,6 +25,7 @@ html, body {
   display: flex;
   flex-direction: row;
   color: white;
+  flex-wrap: wrap;
 }
 
 #about-me {
