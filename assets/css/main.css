@@ -21,7 +21,7 @@ html, body {
 }
 
 #container {
-  margin: 3em;
+  margin: .5em;
   display: flex;
   flex-direction: row;
   color: white;
@@ -39,14 +39,14 @@ html, body {
 }
 
 .text-header {
-  font-size: 40px;
+  font-size: 30px;
   letter-spacing: 2px;
   font-family: 'Noto+Sans+SC:700', sans-serif;
   padding: 20px 0 20px 0
 }
 
 .description {
-  padding: 1px 0 1px 0;
+  padding: 5px 0 5px 0;
   font-size: 20px;
   font-family: 'Arsenal', sans-serif;
 }
