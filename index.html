@@ -14,174 +14,239 @@
 
 		<!-- fonts -->
 		<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 		
+		<!-- icon library -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 		<link rel="stylesheet" href="assets/css/main.css">
 		<title>Areeta Wong</title>
 	</head>
 	<body>
-		<!-- header -->
-		<div id="container" style='margin: 2rem 4rem; color: white;'>
-			<img src="assets/images/areeta.png" class="rounded-circle" alt="Picture of Areeta">
-			<h1 class="text-uppercase">Areeta Wong</h1>
-		</div>
+		  <!-- Navigation -->
+		  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="mainNav">
+			<div class="container">
+			  <a class="navbar-brand js-scroll-trigger" href="#header">Areeta Wong</a>
+			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+				  <li class="nav-item">
+					<a class="nav-link js-scroll-trigger" href="#about">ABOUT ME</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link js-scroll-trigger" href="#education">EDUCATION</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link js-scroll-trigger" href="#tech-exp">EXPERIENCE</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link js-scroll-trigger" href="#awards">AWARDS + EVENTS</a>
+				  </li>
+				</ul>
+			  </div>
+			</div>
+		  </nav>
 
+		<!-- header -->
+		<section id="header">
+			<div id="container" style='margin: 2rem 5rem; color: white;'>
+				<img src="assets/images/areeta.png" class="rounded-circle profile" alt="Picture of Areeta">
+				<h1 class="text-uppercase">Areeta Wong</h1>
+			</div>
+		</section>
 
 		<!-- about me -->
-		<div class="jumbotron text-left" style="color: #000000;">
-			<div class="mx-5 mx-xl-5">
-				<h2 class="text-uppercase">About Me</h2>
-				<p>
-					Hi! I'm an incoming 3rd year at <a class="link" href="https://uci.edu/">University of
-					California, Irvine</a> studying computer science with a minor in Informatics, interested in technology
-					and product management. Outside of school, I enjoy guiding students (especially
-					females) into the world of tech through hackathons, clubs, and a mailing list for focused on
-					high school students. Although born and raised in San Francisco, my interest in tech didn't start
-					until my summer at TwitterSF with Girls Who Code. 
-				</p>
+		<section id="about">
+			<div class="jumbotron text-left" style="color: #000000;">
+				<div class="mx-5 mx-xl-5">
+					<h2 class="text-uppercase">About Me</h2>
+					<p>
+						Hi! I'm an incoming 3rd year at <a class="link" href="https://uci.edu/">University of
+						California, Irvine</a> studying computer science with a minor in Informatics, interested in technology
+						and product management. Outside of school, I enjoy guiding students (especially
+						females) into the world of tech through hackathons, clubs, and a mailing list for focused on
+						high school students. Although born and raised in San Francisco, my interest in tech didn't start
+						until my summer at TwitterSF with Girls Who Code. 
+					</p>
+				</div>
 			</div>
-		</div>
+		</section>
 
 		<!-- education -->
-		<div class="jumbotron text-left" style="color: #ffffff; background-color: #898CAE; ">
-			<div class="mx-5 mx-xl-5">
-				<h2 class="text-uppercase">Education</h2>
-					<div class="container">
-						<div class="row">
-							<div class="col" style="max-width: 30%;">
-								<img src="assets/images/uci.png" class="rounded-circle" alt="Picture of UCI logo">
-							</div>
-							<div class="col-xl" style="padding-top: 15px;">
-								<h5>University of California, Irvine</h5>
-								<p>Donald Bren School of Information and Computer Sciences</p>
-								<p>B.S. in Computer Science, Specialization in Information Systems <br>
-								   Minor in Informatics with a focus on Human-Computer Interaction</p>
-								<p>September 2018 - June 2022</p>
+		<section id="education">
+			<div class="jumbotron text-left" style="color: #ffffff; background-color: #898CAE; ">
+				<div class="mx-5 mx-xl-5">
+					<h2 class="text-uppercase">Education</h2>
+						<div class="container">
+							<div class="row">
+								<div class="col" style="max-width: 30%;">
+									<img src="assets/images/uci.png" class="rounded-circle" alt="Picture of UCI logo">
+								</div>
+								<div class="col-md" style="padding-top: 15px;">
+									<h5>University of California, Irvine</h5>
+									<p>B.S. in Computer Science, Specialization in Information Systems <br>
+									Minor in Informatics with a focus on Human-Computer Interaction</p>
+									<p>September 2018 - June 2022</p>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 
 		<!-- technical experience -->
-		<div class="jumbotron text-left" style="color: #000000;">
-			<div class="mx-5 mx-xl-5">
-				<h2 class="text-uppercase" style="margin-bottom: 1rem;">Technical Experience</h2>
-				<div class="row align-items-center">
-					
-					<!-- google step -->
-					<div class="col-xs">
-						<img src="assets/images/google.png" class="rounded-circle" alt="Picture of Google logo" style="margin-bottom: 1rem;">
-					</div>
-					<div class="col-md">
-						<h4>Google</h4>
-						<p>STEP (Student Training in Engineering Program) Intern / Formerly known as Engineering Practicum</p>
-					</div>
-					<div class="w-100"></div>
+		<section id="tech-exp">
+			<div class="jumbotron text-left" style="color: #000000;">
+				<div class="mx-5 mx-xl-5">
+					<h2 class="text-uppercase" style="margin-bottom: 1rem;">Technical Experience</h2>
+					<div class="row align-items-center">
+						
+						<!-- google step -->
+						<div class="col-xs">
+							<img src="assets/images/google.png" class="rounded-circle" alt="Picture of Google logo" style="margin-bottom: 1rem;">
+						</div>
+						<div class="col-md">
+							<h4>Google</h4>
+							<p>STEP (Student Training in Engineering Program) Intern / Formerly known as Engineering Practicum</p>
+						</div>
+						<div class="w-100"></div>
 
-					<!-- amazon afe -->
-					<div class="col-xs">
-						<img src="assets/images/amazon.png" class="rounded-circle" alt="Picture of Amazon logo" style="margin-bottom: 1rem;">
-					</div>
-					<div class="col-md">
-						<h4>Amazon</h4>
-						<p>Amazon Future Engineer / Software Development Engineer Intern</p>
-					</div>
-					<div class="w-100"></div>
+						<!-- amazon afe -->
+						<div class="col-xs">
+							<img src="assets/images/amazon.png" class="rounded-circle" alt="Picture of Amazon logo" style="margin-bottom: 1rem;">
+						</div>
+						<div class="col-md">
+							<h4>Amazon</h4>
+							<p>Amazon Future Engineer / Software Development Engineer Intern</p>
+						</div>
+						<div class="w-100"></div>
 
-					<!-- google cssi -->
-					<div class="col-xs">
-						<img src="assets/images/google.png" class="rounded-circle" alt="Picture of Google logo" style="margin-bottom: 1rem;">
-					</div>
-					<div class="col-md">
-						<h4>Google</h4>
-						<p>London is the most populous city in the United Kingdom,
-						with a metropolitan area of over 13 million inhabitants.</p>
-					</div>
-					<div class="w-100"></div>
+						<!-- kode with klossy -->
+						<div class="col-xs">
+							<img src="assets/images/kwk.png" class="rounded-circle" alt="Picture of Kode with Klossy logo" style="margin-bottom: 1rem;">
+						</div>
+						<div class="col-md">
+							<h4>Kode with Klossy</h4>
+							<p>London is the most populous city in the United Kingdom,
+							with a metropolitan area of over 13 million inhabitants.</p>
+						</div>
+						<div class="w-100"></div>
 
-					<!-- kode with klossy -->
-					<div class="col-xs">
-						<img src="assets/images/kwk.png" class="rounded-circle" alt="Picture of Kode with Klossy logo" style="margin-bottom: 1rem;">
-					</div>
-					<div class="col-md">
-						<h4>Kode with Klossy</h4>
-						<p>London is the most populous city in the United Kingdom,
-						with a metropolitan area of over 13 million inhabitants.</p>
-					</div>
-					<div class="w-100"></div>
-
-					<!-- girls who code-->
-					<div class="col-xs">
-						<img src="assets/images/gwc.png" class="rounded-circle" alt="Picture of Girls Who Code logo" style="margin-bottom: 1rem;">
-					</div>
-					<div class="col-md">
-						<h4>Girls Who Code</h4>
-						<p>London is the most populous city in the United Kingdom,
-						with a metropolitan area of over 13 million inhabitants.</p>
+						<!-- girls who code-->
+						<div class="col-xs">
+							<img src="assets/images/gwc.png" class="rounded-circle" alt="Picture of Girls Who Code logo" style="margin-bottom: 1rem;">
+						</div>
+						<div class="col-md">
+							<h4>Girls Who Code</h4>
+							<p>London is the most populous city in the United Kingdom,
+							with a metropolitan area of over 13 million inhabitants.</p>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 
 		<!-- leadership experience -->
-		<div class="jumbotron text-left" style="color: #ffffff; background-color: #898CAE; ">
-			<div class="mx-5 mx-xl-5">
-				<h2 class="text-uppercase">Leadership Experience</h2>
-				<div class="row">
-					<div class="col-sm-4">
-						<img src="assets/images/blueprint.png" class="rounded-circle" alt="Picture of Google logo">
-
-					    <h2>London</h2>
-					      <p>London is the most populous city in the United Kingdom,
-							with a metropolitan area of over 13 million inhabitants.</p>
-					</div>
-					<div class="col-sm-4">
-						<img src="assets/images/hack.png" class="rounded-circle" alt="Picture of Google logo">
-
-					    <h2>Paris</h2>
-					      <p>The Paris area is one of the largest population centers in Europe,
+		<section id="lead-exp">
+			<div class="jumbotron text-left" style="color: #ffffff; background-color: #898CAE; ">
+				<div class="mx-5 mx-xl-5">
+					<h2 class="text-uppercase">Leadership Experience</h2>
+					<div class="row">
+						<div class="col-sm-4">
+							<img src="assets/images/blueprint.png" class="rounded-circle" alt="Picture of Google logo">
+							<h4>Blueprint at UCI</h4><p>London is the most populous city in the United Kingdom,
+								with a metropolitan area of over 13 million inhabitants.</p>
+						</div>
+						<div class="col-sm-4">
+							<img src="assets/images/hack.png" class="rounded-circle" alt="Picture of Google logo">
+						    <h4>Hack at UCI</h4><p>The Paris area is one of the largest population centers in Europe,
 								ith more than 12 million inhabitants.</p>
-					</div>
-					<div class="col-sm-4">
-						<img src="assets/images/superposition.png" class="rounded-circle" alt="Picture of Google logo">
-
-					    <h2>Tokyo</h2>
-					      <p>Tokyo is the center of the Greater Tokyo Area,
-							and the most populous metropolitan area in the world.</p>
+						</div>
+						<div class="col-sm-4">
+							<img src="assets/images/maiss.png" class="rounded-circle" alt="Picture of Google logo">
+						    <h4>MAISS</h4><p>Tokyo is the center of the Greater Tokyo Area,
+								and the most populous metropolitan area in the world.</p>
+						</div>
+						<div class="col-sm-4">
+							<img src="assets/images/superposition.png" class="rounded-circle" alt="Picture of Google logo">
+						    <h4>Superposition</h4><p>London is the most populous city in the United Kingdom,
+								with a metropolitan area of over 13 million inhabitants.</p>
+						</div>
+						<div class="col-sm-4">
+							<img src="assets/images/gwc.png" class="rounded-circle" alt="Picture of Google logo">
+						    <h4>Girls Who Code Foster City</h4><p>The Paris area is one of the largest population centers in Europe,
+								ith more than 12 million inhabitants.</p>
+						</div>
+						<div class="col-sm-4">
+							<img src="assets/images/codeday.png" class="rounded-circle" alt="Picture of Google logo">
+						    <h4>CodeDay Bay Area</h4><p>Tokyo is the center of the Greater Tokyo Area,
+								and the most populous metropolitan area in the world.</p>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 
 		<!-- awards + events -->
-		<div class="jumbotron text-left" style="color: #000000;">
-			<div class="mx-5 mx-xl-5">
-				<h2 class="text-uppercase">Awards + Events</h2>
+		<section id="awards">
+			<div class="jumbotron text-left" style="color: #000000;">
+				<div class="mx-5 mx-xl-5">
+					<h2 class="text-uppercase">Awards + Events</h2>
+					<div class="table-responsive">
+						<table class="table table-hover table-striped">
+							<tr><td>Goldman Sach’s 2020 Goldman Sachs Summer Insight Series</td></tr>
+							<tr><td>2</td></tr>
+							<tr><td>3</td></tr>
+							<tr><td>4</td></tr>
+					</table>
+						<table class="table">
+							<thead>
+								<tr>
+								<th scope="col">Name</th>
+								<th scope="col">Date</th>
+								</tr>
+							</thead>
+							<tbody>
+							<tr>
+								<td>Goldman Sach’s 2020 Goldman Sachs Summer Insight Series</td>
+								<td>June 2020</td>
+							</tr>
+							<tr>
+								<th scope="row">2</th>
+								<td>Jacob</td>
+								<td>Thornton</td>
+								<td>@fat</td>
+							</tr>
+							<tr>
+								<th scope="row">3</th>
+								<td>Larry</td>
+								<td>the Bird</td>
+								<td>@twitter</td>
+							</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
 			</div>
-		</div>
+		</section>
 
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-4">
-				    <h2>London</h2>
-				      <p>London is the most populous city in the United Kingdom,
-						with a metropolitan area of over 13 million inhabitants.</p>
+		<!-- social media -->
+		<section id="contact">
+			<div class="jumbotron" style="color: #ffffff; background-color: #898CAE; text-align:center;">
+				<div class="row align-items-center" style="display: inline">
+					<a href="#" class="fa fa-envelope"></a>
+					<a href="#" class="fa fa-linkedin"></a>
+					<a href="#" class="fa fa-github"></a>
+					<a href="#" class="fa fa-medium"></a>
+					<a href="#" class="fa fa-twitter"></a>
+					<a href="#" class="fa fa-file"></a>
 				</div>
-				<div class="col-sm-4">
-				    <h2>Paris</h2>
-				      <p>The Paris area is one of the largest population centers in Europe,
-							ith more than 12 million inhabitants.</p>
-				</div>
-				<div class="col-sm-4">
-				    <h2>Tokyo</h2>
-				      <p>Tokyo is the center of the Greater Tokyo Area,
-						and the most populous metropolitan area in the world.</p>
-				</div>
+				<div class="copy_text">Copyright © 2017-2020</div>
 			</div>
-		</div>
+		</section>
 
-		</body>
+	</body>
 </html>
 
