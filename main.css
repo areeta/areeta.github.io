@@ -30,8 +30,6 @@ img.rounded-circle.profile {
     border-style: solid;
     border-color: rgb(255, 255, 255);
     border-image: initial;
-    justify-content: center;
-    align-items: center;
 }
 
 .rounded-circle {
@@ -44,7 +42,7 @@ h2 {
 }
 
 a {
-    color: #898cae;
+    color: #7971c5;
 }
 
 a:link,
