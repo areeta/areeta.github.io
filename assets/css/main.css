@@ -2,58 +2,69 @@ html, body {
     margin: 0;
     padding: 0;
     background-color: #898CAE;
+    font-family: 'Muli', sans-serif;
+    color: #FFFFFF;
+    font-size: 18px;
 }
 
-#profile {
-    border-radius: 50%;
-    width: 65%;
+h1 {
+  margin: 1rem;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: rgb(131, 132, 209);
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a #link {
+  color: #000000;
+}
+
+img {
+    max-width: 170px !important;
+    min-width: 100px;
+    height: auto;
+    display: inline-block;
     border: 4px solid #FFFFFF;
 }
 
-#header {
-  padding: 0.4rem;
-  text-align: center;
-  background: #EFEEF2;
+img.rounded-circle.profile {
+  max-width: 250px !important;
+}
+
+.jumbotron {
   color: #000000;
-  font-size: 70px;
-  letter-spacing: 20px;
-  font-family: 'Noto Sans SC', sans-serif;
+  padding: 4.5rem 4rem;
+  margin: 0;
 }
 
 #container {
-  margin: 4em;
-  color: white;
   flex-wrap: wrap;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-#photo {
-  margin: 3rem 3rem 0 3rem;
-  flex: 1 1 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#about-me {
-  margin: 3rem 5rem 0 3rem;
-  flex: 1 1 0;
-}
-
-.text-header {
-  font-size: 30px;
-  letter-spacing: 2px;
-  font-family: 'Noto+Sans+SC:700', sans-serif;
-  padding: 20px 0 20px 0
-}
-
-.description {
-  padding: 5px 0 5px 0;
-  font-size: 20px;
-  font-family: 'Arsenal', sans-serif;
 }
 
 #socials {
@@ -64,6 +75,19 @@ html, body {
   font-size: 2rem;
 }
 
-a {
-  color: #FFFFFF;
+.fa {
+  padding: 10px;
+  margin: 0.5rem;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: #e9ecef;
+  align-items: center;
+  color: #898CAE;
+}
+
+.fa:hover {
+  opacity: 0.7;
 }
