@@ -20,6 +20,24 @@ img {
     max-width: 100%;
 }
 
+img.rounded-circle.profile {
+    max-width: 250px !important;
+    min-width: 100px;
+    height: auto;
+    display: inline-block;
+    max-width: 170px !important;
+    border-width: 4px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-image: initial;
+    justify-content: center;
+    align-items: center;
+}
+
+.rounded-circle {
+    border-radius: 50%!important;
+}
+
 h2 {
     margin-bottom: 1rem;
     margin-top: 1rem;
