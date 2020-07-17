@@ -1,23 +1,13 @@
 # Official Personal Website
 
 Welcome to my personal website! This website was created to act as my little corner of the internet and display my projects, skills, and interests.
-Currently, this is the second version of the website.
+Currently, this is the third version of the website.
 
-## Current Version - V2
+## Current Version - V3
 - [X] About Me Section
-- [X] Education Section
-- [X] Technical Section
-- [X] Leadership Section
-- [X] Awards and Events Section
 - [X] Social Media
-- [ ] Responsiveness of mobile device
+- [X] Project Section
+- [X] Skills Section
+- [X] Responsiveness of mobile device
+- [ ] Awards and Events Section
 - [ ] More interaction
-- [ ] SVGs from STEP website
-
-![Current look](https://lh3.googleusercontent.com/Idg2jWi4Ozvzg-gYY3__uzhmi9onvKP63fay7rMrU5oGt4tSrRh0pbbEKUXeEutrI_hTqCiq9Ymkx_xo6C2RFOj08j4A_iZ1oGkqCGcRhBihMN3Fx0PMI8GVxbFje0Z1DL8iRddXjsqj4w8gMlLe240AIVJl0a0fSki1gxGPjyxtzyM1h9zaycnAfFYd9kg_40eGhpknhlZZFHZzIXrJu0d_fpSjtQLizqo7GBiG09iAQeMWs_-2cf2NAyeeiaSkeQdlwGo0CpmIyWiqro4vL1Mm5qy3FT7_J0iS05d5RVipB0-VP1ikc722RMiUTMVKQNJbM1lqgY0QyOj56MTRwaxAfvWWFU8jmAb6fE9x9guWOlRbJOPF9pMKMz3uxq9wyD6mNIFUw3USycBIkhzigUc_wLCsCNEE2zZadkYNWOX7-PySMOmekRQgRXYcX5Kp7lZe6fWlMFA5hfzhsoJNZBSAA3b_iykExsJGIDR0ufclJyZEGGQYvLFMZlSqdMqoqLLKtRIumOWlDOsfw4x52VH_euSqgxjYNck0rjCwMzyxzj90-4dNjvDBjk9gBgtoWraCDvKO1vDaiBkfAl2xxVEvEghg5lDbK3qskUUzp8Q1DemIHis67-x_Pv2EUMyHPfF5RxG0FcWFK00WGGm6F6ebbwENJQwHlmGmFH5_9hJqIVHQkjV32YtAC1kjmQ=w1000-no-tmp.jpg)
-
-## Original Version - V1
-- [X] Summary
-- [X] Social Media
-
-![Original look](https://lh3.googleusercontent.com/fDd2CBo25DwJfJvHjZbbny-ptFZ-H9MWdASAHfe92R8YrKQLcMjJTzLrZyF2AC38S_rT4hwta6f53i2j7SOg99pn7hXurjEMqSoQrjKg53Sq23tXpq-LITYiJ-9h4cKH7m2CSFxGXTMHLkmKRPU-qWraWygU-Xo2ZhrsG0MCvVe8JsDctkEpVPij6Oho30LJS98t9YD3Qk2GDg_JUFTwodxMntJ8MpIGGXYWC0Wt1m_lP_VJSO_abHTSE9j72wkImJFXPEXN7EHDtjHaS74mbisd-peOIEYtdsMKwIpaXOrulV3sVs6tC5SQKEXY2vwdS3CaXDYDzk7B_v20s0Jw-mTvxhsRhvpKWaoIjcf8X1nfR7BRYFEL_vVQlL8hd6JT9BmEowp66ZWn4ZJEvcRsvXc6Lap8y447ySXDp77hCUNXZHplCevZ_52e91L0jasvGoiC8tA5fLP_d2WmR2gwdw5T2fS8kHSBeF_73STFfl4L7S-f-X7TyS4RFwRnNaiBnJB7IMgLwQanHewyRwZYSl9GW9vnlVp9iXqKAC2AgD8j_rrUeJBImDcBMcp1g-Z-x8SNVNOXtfzxt7atvosp0R38tptjVcFF6UvRTBfiXfvHA1nGSQfnb2cOUMybTAzGPztCqcwC_isxRZHsGheiYGJY6CZYbPPXAMOe7-PDGf7nC_ZGqtiUxiG-iRFjjA=w1000-no-tmp.jpg)
