@@ -1,4 +1,4 @@
-/** Adds scroll bar to show progress of page scroll.  */
+/* Adds scroll bar to show progress of page scroll. */
 window.onscroll = function() {handleOnScroll()};
 
 function handleOnScroll() {

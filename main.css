@@ -61,6 +61,13 @@ a #link {
     padding: 4rem 1rem;
 }
 
+@media only screen and (max-width: 768px) {
+    .ml-5, .mx-5 {
+        margin-left: 1rem!important;
+        margin-right: 1rem!important;
+    }
+}
+
 .page {
     margin: 50px auto 0 auto;
 }
@@ -75,7 +82,7 @@ a #link {
 
 .fa {
     color: #000;
-    font-size: 1.5rem !important;
+    font-size: 1rem !important;
     padding: 0.7rem;
     text-align: center;
     text-decoration: none;
