@@ -3,7 +3,7 @@
 Welcome to my personal website! This website was created to act as my little corner of the internet and display my projects, skills, and interests.
 Currently, this is the third version of the website.
 
-![](http://g.recordit.co/mlBX3Ldllu.gif)
+![](http://g.recordit.co/UWKwTKrJBh.gif)
 
 
 ## Current Version Features - V3
